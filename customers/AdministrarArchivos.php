@@ -42,7 +42,7 @@
 <title>GAAG Archivos / Administrar Archivos</title>
 </head>
 
-<body>
+<body onload="cargar()">
 
 	<?php MenuPrincipalAdmin(); ?>
 	<div class="container-fluid">
@@ -62,9 +62,15 @@
 			<div class="col-md-8" id="divdirectorio">
 								
 				<div class="col-md-10" style="border-bottom: 1px solid #E9E9E9; height: 60px; line-height: 60px;font-family: 'PT Sans Narrow', sans-serif; font-size: 22px;">
-					Directorio de Archivos
-				</div>
-				<input type="hidden" id="mostrandoC" name="mostrandoC" value="0">
+					Directorio de Archivos 
+					<?php  
+						$con=Conexion();
+						$sql_raiz="select * from permiso_carpeta where idempleado='".$_SESSION["empleado"]."' order by idcarpeta;";
+						$result_raiz=pg_exec($con,$sql_raiz);
+						$raiz=pg_fetch_array($result_raiz,0);
+					?>
+				</div>				
+				<input type="hidden" id="mostrandoC" name="mostrandoC" value="<?php echo $raiz[2]; ?>">
 				<div id="createfolder" name="createfolder" ></div>
 				<div class="col-md-2"></div>
 				
@@ -84,28 +90,20 @@
 							<table class="table table-hover">
   								<tbody style="border-bottom: 1px solid #DDDDDD">
   									<?php  									
-  										$con=Conexion();
+  										/*$con=Conexion();
 										$sql_listaCarpetas="select * from carpeta where padre=0 order by nombre";
 										$result_listaCarpetas=pg_exec($con,$sql_listaCarpetas);
   						    			for($i=0;$i<pg_num_rows($result_listaCarpetas);$i++){
   						    				$carpeta=pg_fetch_array($result_listaCarpetas,$i);
   											echo "<tr style='cursor:pointer;' onclick=directorio(".$carpeta[0].")><td><img src='../recursos/imagenes/iconfolder.png' height='42' width='42'></td><td style='line-height: 40px; font-family: \"PT Sans Narrow\", sans-serif; font-size: 17px;'>".$carpeta[2]."</td><td></td></tr>";    	
-  						    			}
+  						    			}*/
   									?>						
 								</tbody>						
 							</table>
 						</div>
 						
 					
-						<div class="col-md-12">
-							<!--<div class="col-md-5">
-								<button onclick="crearcarpeta(0)" type="button" class="btn btn-default btn-xs" style="font-family: 'PT Sans Narrow', sans-serif; font-size: 16px;"> <span class="glyphicon glyphicon-folder-open" style="margin-right: 10px;"></span>Crear Carpeta</button>																
-							</div>
-							<div class="col-md-7">
-								<form>		
-									<input id="file_upload" name="file_upload" type="file" multiple="true">
-								</form>																
-							</div>-->							
+						<div class="col-md-12">						
 						</div>
 										
 						
@@ -151,6 +149,11 @@
 			}   
 			      			
 		});
+	}
+	
+	function cargar(){
+		var carpeta=document.getElementById("mostrandoC").value;
+		directorio(carpeta);
 	}
 	
 	function directorio(idCarpeta){  

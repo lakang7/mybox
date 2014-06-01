@@ -614,8 +614,8 @@
 								echo "<li onclick=directorio(0) style=\"cursor:pointer\">Root</li>";
 							}else{
 							
-								echo "<li onclick=directorio(0) style=\"cursor:pointer\">Root</li>";							
-								for($i=($contaodrUrls-1);$i>=0;$i--){
+								//echo "<li onclick=directorio(0) style=\"cursor:pointer\">Root</li>";							
+								for($i=($contaodrUrls-2);$i>=0;$i--){
 									$sql_carpeta="select * from carpeta where idcarpeta='".$listUrls[$i]."'";								
 									$result_carpeta=pg_exec($con,$sql_carpeta);
 									$carpeta=pg_fetch_array($result_carpeta,0);	
@@ -642,7 +642,7 @@
 										$result_listaCarpetas=pg_exec($con,$sql_listaCarpetas);
   						    			for($i=0;$i<pg_num_rows($result_listaCarpetas);$i++){
   						    				$carpeta=pg_fetch_array($result_listaCarpetas,$i);
-  											echo "<tr style='cursor:pointer;' onclick=directorio(".$carpeta[0].")><td><img src='../recursos/imagenes/iconfolder.png' height='42' width='42'></td><td style='line-height: 40px; font-family: \"PT Sans Narrow\", sans-serif; font-size: 17px;'>".$carpeta[2]."</td><td></td><td></td></tr>";    	
+  											echo "<tr style='cursor:pointer;' onclick=directorio(".$carpeta[0].")><td><img src='../recursos/imagenes/iconfolder.png' height='42' width='42'></td><td style='line-height: 40px; font-family: \"PT Sans Narrow\", sans-serif; font-size: 17px;'>".$carpeta[2]."</td><td></td></tr>";    	
   						    			}
 										
 										$sql_listaArchivos="select * from archivo where idcarpeta='".$_POST["carpeta"]."';";
@@ -695,52 +695,15 @@
 											$date = date_create($archivo[4]);
 											echo "<td style='font-family: \"PT Sans Narrow\", sans-serif; font-size: 17px;'><div class=\"col-md-12\">".$archivo[3]."</div><div class=\"col-md-12\" style=\"font-size: 13px;color:#848484\" >Subido el ".date_format($date,'d-m-Y H:i:s')."</div>";
 											echo "</td>";
-											echo "<td ><a href=\"download.php?file=".$directorio."\"><span class=\"glyphicon glyphicon-save\" style='margin-top: 10px;' title=\"Descargar Archivo\"></span></a></td><td ><span onclick=eliminarArchivo(".$archivo[0].") class=\"glyphicon glyphicon-trash\" style='margin-top: 10px;' title=\"Eliminar Archivo\"></span></td></tr>";  
+											echo "<td ><a href=\"download.php?file=".$directorio."\"><span class=\"glyphicon glyphicon-save\" style='margin-top: 10px;' title=\"Descargar Archivo\"></span></a></td></tr>";  
 										}
   									?>						
 								</tbody>						
 							</table>
 						</div>
 						
-					
-						<div class="col-md-12">
-						<?php
-							$band=0;
-							if($_POST["carpeta"]>0){
-								$sql_carpeta0="select * from carpeta where idcarpeta='".$_POST["carpeta"]."';";
-								$result_carpeta0=pg_exec($con,$sql_carpeta0);
-								$carpeta0=pg_fetch_array($result_carpeta0,0);							
-								if($carpeta0[3]!=0){
-								
-									$sql_carpeta1="select * from carpeta where idcarpeta='".$carpeta0[0]."';";
-									$result_carpeta1=pg_exec($con,$sql_carpeta1);								
-									$carpeta1=pg_fetch_array($result_carpeta1,0);
-								
-									if($carpeta1[3]!=0){
-										$band=1;
-									}								
-								}
-							
-							}
-							if($band==1){
-							?>
-								
-							<div class="col-md-5">
-								<button onclick="crearcarpeta(<?php echo $_POST["carpeta"]; ?>)" type="button" class="btn btn-default btn-xs" style="font-family: 'PT Sans Narrow', sans-serif; font-size: 16px;"> <span class="glyphicon glyphicon-folder-open" style="margin-right: 10px;"></span>Crear Carpeta</button>																
-							</div>
-							<div class="col-md-7">
-								<form>		
-									<input id="file_upload" name="file_upload" type="file" multiple="true">
-								</form>																
-							</div>									
-								
-							<?php								
-							}
-							
 						
-						?>
-																	
-						</div>															
+																				
 						</div>	
 												
 					</div>																																																				

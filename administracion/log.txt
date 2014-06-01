@@ -262,4 +262,13 @@ El id del archivo vale: 81
 Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 80
 el numero de registros son:62
 El id del archivo vale: 81
-Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 81
+el numero de registros son:61
+El id del archivo vale: 82
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder23/Folder26/El ultimo valor de la secuencia es: 82
+el numero de registros son:62
+El id del archivo vale: 83
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder23/Folder26/El ultimo valor de la secuencia es: 83
+el numero de registros son:63
+El id del archivo vale: 84
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder23/Folder26/
