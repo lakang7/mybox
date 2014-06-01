@@ -1,0 +1,72 @@
+Desarrollo:
+    - SFTP: 
+	host: 166.78.191.120
+	user: root
+	pass: FQVJqtygd9U4
+
+    - SSH:
+	IP: 	166.78.191.120
+	User: 	root
+	pass: 	FQVJqtygd9U4
+	
+    - Bases de Datos:
+	
+	PostgreSQL: (Ya no se encuentra en uso, se pone como referencia)
+	  host: 	166.78.191.120
+	  user:		jcglobal
+	  pass: 	jcglobal2012
+	  dbname:	cloudtool	
+	
+	MySql:
+	  - Base de datos de login (réplica de la que se encuentra en serverenlanube.com [wordpress])
+	      host: 	162.242.147.210
+	      user: 	jcglobal
+	      pass: 	jcglobal2012
+	      dbname: 	serveren_wor1
+	      table: 	fks_users
+	      
+	  - Base de datos del sistema (Se migró desde la de postgre)
+	      host: 	162.242.147.210
+	      user: 	jcglobal
+	      pass: 	jcglobal2012
+	      dbname: 	cloudtool
+
+    - Acceso por ssh al servidor que aloja las BD MySql:
+	host: 		162.242.147.210
+	User: 		root
+	Password: 	BeC2c8LEK5hJ
+    
+    - Acceso a la aplicación por medio del explorador:
+
+	http://166.78.191.120/application/index/market?id=Nombre-Apellido&valor=indiferente
+	
+	Nota: reemplazar Nombre-Apellido por el correspondiente al usuario. Estos son los que se encuentren en 
+	      la tabla fks_users de la réplica de wordpress y que tengan el campo sesion = 1.
+	      
+Servidor de control de versiones:
+      		
+      		http://166.78.61.240/svn/cloudtool
+
+
+AMBIENTE DE Testing 
+Host: 162.242.159.209
+User: root
+Password: LpzakMS7ub6n
+
+
+Sitescope:
+Ip privada: 192.168.100.234
+Host: 67.192.165.234
+Administrator
+Jcglobal2012
+
+Orchestattion:
+Ip privada: 192.168.100.237
+Host: 67.192.165.237
+Administrator
+Jcglobal2012
+
+admin
+Jcglobal2012
+
+

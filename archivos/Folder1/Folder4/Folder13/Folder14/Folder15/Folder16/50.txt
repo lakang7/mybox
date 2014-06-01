@@ -1,0 +1,67 @@
+define('DB_NAME', 'serveren_wor1');
+
+/** MySQL database username */
+define('DB_USER', 'serveren_wor1');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'RHUTm25e');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+
+
+
+
+
+/*Configuración Sitescope*/
+jdbc:mysql://serverenlanube.com:3306/serveren_wor1
+com.mysql.jdbc.Driver
+serveren_usuario
+Jcglob@l2013
+
+
+/*Configuración desde la aplicacion*/
+
+global.php
+
+return array(
+	'db' => array(
+        'driver'         => 'Pdo',
+        'dsn'            => 'mysql:dbname=serveren_wor1;host=serverenlanube.com',
+        'username'  => 'serveren_usuario',
+    	'password'  => 'Jcglob@l2013',
+    ),
+    'service_manager' => array(
+        'factories' => array(
+            'Zend\Db\Adapter\Adapter'
+                    => 'Zend\Db\Adapter\AdapterServiceFactory',
+        ),
+    ),
+
+);
+
+local.php
+
+return array(
+    // Whether or not to enable a configuration cache.
+    // If enabled, the merged configuration will be cached and used in
+    // subsequent requests.
+    //'config_cache_enabled' => false,
+    // The key used to create the configuration cache file name.
+    //'config_cache_key' => 'module_config_cache',
+    // The path in which to cache merged configuration.
+    //'cache_dir' =>  './data/cache',
+    // ...
+    
+   'db' => array(
+        'username' => 'serveren_usuario',
+        'password' => 'Jcglob@l2013',
+    ),
+);
+

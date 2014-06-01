@@ -1,0 +1,9 @@
+Rack en la oficina
+10.10.0.12
+administrator
+jcglobal2012
+
+Rack en Rackspace
+67.192.165.232 
+root
+Jcglobal2012

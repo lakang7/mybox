@@ -1,0 +1,78 @@
+create table empresa(
+  idempresa SERIAL NOT NULL,
+  nombre VARCHAR(120) NOT NULL,
+  rfc VARCHAR(30) NOT NULL,
+  fecha_registro TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+  CONSTRAINT pk_empresa PRIMARY KEY (idempresa) 
+);
+
+create table empleado(
+  idempleado SERIAL NOT NULL,
+  idempresa INTEGER NOT NULL,
+  nombre VARCHAR(60) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  usuario VARCHAR(30) NOT NULL,
+  clave VARCHAR(12) NOT NULL,
+  rfc VARCHAR(30),
+  tipo_empleado INTEGER NOT NULL,
+  fecha_registro TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+  ultimo_ingreso TIMESTAMP WITHOUT TIME ZONE,  
+  CONSTRAINT pk_empleado PRIMARY KEY (idempleado),
+  CONSTRAINT fk_empleado_idempresa FOREIGN KEY (idempresa) REFERENCES empresa (idempresa)  
+);
+
+create table tipo_archivo(
+  idtipo_archivo SERIAL NOT NULL,
+  nombre VARCHAR(30) NOT NULL,
+  icono VARCHAR(200) NOT NULL,
+  extencion VARCHAR(30) NOT NULL,
+  CONSTRAINT pk_tipo_archivo PRIMARY KEY (idtipo_archivo)  
+);
+
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'Word','../recursos/imagenes/word.PNG','docx');
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'PDF','../recursos/imagenes/pdf.PNG','png');
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'Excel','../recursos/imagenes/excel.PNG','xlsx');
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'Pawer Point','../recursos/imagenes/point.PNG','pptx');
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'Publisher','../recursos/imagenes/publisher.PNG','pub');
+INSERT INTO tipo_archivo VALUES(nextval('tipo_archivo_idtipo_archivo_seq'),'Texto Plano','../recursos/imagenes/txt.PNG','txt');
+
+create table carpeta(
+  idcarpeta SERIAL NOT NULL,
+  idempresa INTEGER NOT NULL,
+  nombre VARCHAR(120) NOT NULL,
+  padre INTEGER NOT NULL,
+  codigo VARCHAR(120) NOT NULL,
+  fecha_creacion TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+  CONSTRAINT fk_carpeta_idempresa FOREIGN KEY (idempresa) REFERENCES empresa (idempresa),
+  CONSTRAINT pk_carpeta PRIMARY KEY (idcarpeta) 
+);
+
+create table archivo(
+  idarchivo SERIAL NOT NULL,
+  idcarpeta INTEGER NOT NULL,
+  idtipo_archivo INTEGER NOT NULL,
+  nombre VARCHAR(120) NOT NULL, 
+  fecha_creacion TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+  CONSTRAINT pk_archivo PRIMARY KEY (idarchivo),
+  CONSTRAINT fk_archivo_idarchivo FOREIGN KEY (idcarpeta) REFERENCES carpeta (idcarpeta), 
+  CONSTRAINT fk_archivo_idtipo_archivo FOREIGN KEY (idtipo_archivo) REFERENCES tipo_archivo (idtipo_archivo) 
+);
+
+create table permiso_carpeta(
+  idpermiso_carpeta SERIAL NOT NULL,
+  idempleado INTEGER NOT NULL,
+  idcarpeta INTEGER NOT NULL,
+  tipo_permiso INTEGER NOT NULL,
+  CONSTRAINT pk_permiso_carpeta PRIMARY KEY (idpermiso_carpeta),
+  CONSTRAINT fk_permiso_carpeta_idempleado FOREIGN KEY (idempleado) REFERENCES empleado (idempleado),  
+  CONSTRAINT fk_permiso_carpeta_idcarpeta FOREIGN KEY (idcarpeta) REFERENCES carpeta (idcarpeta) 
+);
+
+create table permiso_archivo(
+  idpermiso_archivo SERIAL NOT NULL,
+  idempleado INTEGER NOT NULL,
+  idarchivo INTEGER NOT NULL,
+  CONSTRAINT pk_permiso_archivo PRIMARY KEY (idpermiso_archivo),
+  CONSTRAINT fk_permiso_archivo_idempleado FOREIGN KEY (idempleado) REFERENCES empleado (idempleado),  
+  CONSTRAINT fk_permiso_archivo_idarchivo FOREIGN KEY (idarchivo) REFERENCES archivo (idarchivo) 
+);

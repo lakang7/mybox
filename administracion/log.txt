@@ -1,0 +1,265 @@
+El ultimo valor de la secuencia es: 18
+el numero de registros son:0
+El id del archivo vale: 1
+El ultimo valor de la secuencia es: 19
+el numero de registros son:1
+El id del archivo vale: 2
+El ultimo valor de la secuencia es: 1
+el numero de registros son:0
+El id del archivo vale: 1
+El ultimo valor de la secuencia es: 1
+el numero de registros son:1
+El id del archivo vale: 2
+El ultimo valor de la secuencia es: 2
+el numero de registros son:2
+El id del archivo vale: 3
+El ultimo valor de la secuencia es: 3
+el numero de registros son:3
+El id del archivo vale: 4
+Directorio: ../../archivos/Folder18/Folder23/El ultimo valor de la secuencia es: 4
+el numero de registros son:4
+El id del archivo vale: 5
+Directorio: C:/xampp/htdocs/mybox/archivos/uploadsFolder1/Folder3/Folder6/Folder11/El ultimo valor de la secuencia es: 5
+el numero de registros son:5
+El id del archivo vale: 6
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 6
+el numero de registros son:6
+El id del archivo vale: 7
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 7
+el numero de registros son:7
+El id del archivo vale: 8
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 8
+el numero de registros son:8
+El id del archivo vale: 9
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 9
+el numero de registros son:9
+El id del archivo vale: 10
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 10
+el numero de registros son:10
+El id del archivo vale: 11
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 11
+el numero de registros son:11
+El id del archivo vale: 12
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 12
+el numero de registros son:12
+El id del archivo vale: 13
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 13
+el numero de registros son:13
+El id del archivo vale: 14
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 14
+el numero de registros son:14
+El id del archivo vale: 15
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 15
+el numero de registros son:15
+El id del archivo vale: 16
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 16
+el numero de registros son:16
+El id del archivo vale: 17
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/Folder17/El ultimo valor de la secuencia es: 17
+el numero de registros son:17
+El id del archivo vale: 18
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 18
+el numero de registros son:18
+El id del archivo vale: 19
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 19
+el numero de registros son:19
+El id del archivo vale: 20
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 20
+el numero de registros son:20
+El id del archivo vale: 21
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 21
+el numero de registros son:21
+El id del archivo vale: 22
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 22
+el numero de registros son:22
+El id del archivo vale: 23
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder9/Folder10/El ultimo valor de la secuencia es: 23
+el numero de registros son:23
+El id del archivo vale: 24
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder21/El ultimo valor de la secuencia es: 24
+el numero de registros son:24
+El id del archivo vale: 25
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder23/El ultimo valor de la secuencia es: 25
+el numero de registros son:25
+El id del archivo vale: 26
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder21/El ultimo valor de la secuencia es: 26
+el numero de registros son:26
+El id del archivo vale: 27
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder21/El ultimo valor de la secuencia es: 27
+el numero de registros son:27
+El id del archivo vale: 28
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 28
+el numero de registros son:28
+El id del archivo vale: 29
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 29
+el numero de registros son:29
+El id del archivo vale: 30
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 30
+el numero de registros son:30
+El id del archivo vale: 31
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder5/El ultimo valor de la secuencia es: 31
+el numero de registros son:31
+El id del archivo vale: 32
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder8/El ultimo valor de la secuencia es: 32
+el numero de registros son:32
+El id del archivo vale: 33
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 33
+el numero de registros son:33
+El id del archivo vale: 34
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 33
+el numero de registros son:33
+El id del archivo vale: 34
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 34
+el numero de registros son:34
+El id del archivo vale: 35
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 34
+el numero de registros son:34
+El id del archivo vale: 35
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 35
+el numero de registros son:35
+El id del archivo vale: 36
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 36
+el numero de registros son:36
+El id del archivo vale: 37
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder2/El ultimo valor de la secuencia es: 36
+el numero de registros son:36
+El id del archivo vale: 37
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 37
+el numero de registros son:37
+El id del archivo vale: 38
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 38
+el numero de registros son:38
+El id del archivo vale: 39
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 39
+el numero de registros son:39
+El id del archivo vale: 40
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 40
+el numero de registros son:40
+El id del archivo vale: 41
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 41
+el numero de registros son:41
+El id del archivo vale: 42
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 42
+el numero de registros son:42
+El id del archivo vale: 43
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 43
+el numero de registros son:43
+El id del archivo vale: 44
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 44
+el numero de registros son:44
+El id del archivo vale: 45
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder6/Folder12/El ultimo valor de la secuencia es: 45
+el numero de registros son:45
+El id del archivo vale: 46
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder7/El ultimo valor de la secuencia es: 46
+el numero de registros son:46
+El id del archivo vale: 47
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder7/El ultimo valor de la secuencia es: 47
+el numero de registros son:47
+El id del archivo vale: 48
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder7/El ultimo valor de la secuencia es: 48
+el numero de registros son:48
+El id del archivo vale: 49
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/Folder7/El ultimo valor de la secuencia es: 49
+el numero de registros son:49
+El id del archivo vale: 50
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/El ultimo valor de la secuencia es: 50
+el numero de registros son:50
+El id del archivo vale: 51
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder15/Folder16/El ultimo valor de la secuencia es: 51
+el numero de registros son:51
+El id del archivo vale: 52
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 52
+el numero de registros son:52
+El id del archivo vale: 53
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 53
+el numero de registros son:53
+El id del archivo vale: 54
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 54
+el numero de registros son:54
+El id del archivo vale: 55
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 55
+el numero de registros son:55
+El id del archivo vale: 56
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 56
+el numero de registros son:56
+El id del archivo vale: 57
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 57
+el numero de registros son:57
+El id del archivo vale: 58
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 58
+el numero de registros son:58
+El id del archivo vale: 59
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 59
+el numero de registros son:59
+El id del archivo vale: 60
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 60
+el numero de registros son:60
+El id del archivo vale: 61
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 61
+el numero de registros son:61
+El id del archivo vale: 62
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 62
+el numero de registros son:62
+El id del archivo vale: 63
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 63
+el numero de registros son:63
+El id del archivo vale: 64
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder22/El ultimo valor de la secuencia es: 64
+el numero de registros son:64
+El id del archivo vale: 65
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder19/Folder20/Folder21/El ultimo valor de la secuencia es: 65
+el numero de registros son:48
+El id del archivo vale: 66
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder3/El ultimo valor de la secuencia es: 66
+el numero de registros son:49
+El id del archivo vale: 67
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder24/El ultimo valor de la secuencia es: 67
+el numero de registros son:50
+El id del archivo vale: 68
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder24/El ultimo valor de la secuencia es: 68
+el numero de registros son:51
+El id del archivo vale: 69
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder24/El ultimo valor de la secuencia es: 69
+el numero de registros son:52
+El id del archivo vale: 70
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder24/El ultimo valor de la secuencia es: 70
+el numero de registros son:53
+El id del archivo vale: 71
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/Folder24/El ultimo valor de la secuencia es: 71
+el numero de registros son:54
+El id del archivo vale: 72
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder27/El ultimo valor de la secuencia es: 72
+el numero de registros son:55
+El id del archivo vale: 73
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder27/El ultimo valor de la secuencia es: 73
+el numero de registros son:56
+El id del archivo vale: 74
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder18/Folder27/El ultimo valor de la secuencia es: 74
+el numero de registros son:57
+El id del archivo vale: 75
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 75
+el numero de registros son:58
+El id del archivo vale: 76
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder1/Folder4/Folder13/Folder14/El ultimo valor de la secuencia es: 76
+el numero de registros son:58
+El id del archivo vale: 77
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 77
+el numero de registros son:59
+El id del archivo vale: 78
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 78
+el numero de registros son:60
+El id del archivo vale: 79
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 79
+el numero de registros son:61
+El id del archivo vale: 80
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 80
+el numero de registros son:62
+El id del archivo vale: 81
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 80
+el numero de registros son:62
+El id del archivo vale: 81
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/El ultimo valor de la secuencia es: 80
+el numero de registros son:62
+El id del archivo vale: 81
+Directorio: C:/xampp/htdocs/mybox/archivos/Folder28/Folder29/
