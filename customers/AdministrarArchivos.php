@@ -65,12 +65,26 @@
 					Directorio de Archivos 
 					<?php  
 						$con=Conexion();
-						$sql_raiz="select * from permiso_carpeta where idempleado='".$_SESSION["empleado"]."' order by idcarpeta;";
-						$result_raiz=pg_exec($con,$sql_raiz);
-						$raiz=pg_fetch_array($result_raiz,0);
+										
+						$sql_empleado="select * from empleado where idempleado='".$_SESSION["empleado"]."'";
+						$result_empleado=pg_exec($con,$sql_empleado);
+						$empleado=pg_fetch_array($result_empleado,0);
+						if($empleado[6]==2){/*Administrador*/
+							$sql_raiz="select * from carpeta where idempresa='".$empleado[1]."' and padre=0;";
+							$result_raiz=pg_exec($con,$sql_raiz);
+							$raiz=pg_fetch_array($result_raiz,0);	
+							$carpPadre=$raiz[0];							
+							
+						}else{ /*Usuario normal*/
+							$sql_raiz="select * from permiso_carpeta where idempleado='".$_SESSION["empleado"]."' order by idcarpeta;";
+							$result_raiz=pg_exec($con,$sql_raiz);
+							$raiz=pg_fetch_array($result_raiz,0);
+							$carpPadre=$raiz[2];														
+						}
+						 																
 					?>
 				</div>				
-				<input type="hidden" id="mostrandoC" name="mostrandoC" value="<?php echo $raiz[2]; ?>">
+				<input type="hidden" id="mostrandoC" name="mostrandoC" value="<?php echo $carpPadre; ?>">
 				<div id="createfolder" name="createfolder" ></div>
 				<div class="col-md-2"></div>
 				

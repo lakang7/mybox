@@ -565,12 +565,15 @@
 	/*Ajax para recargar el directorio del cliente*/
 	if($_GET["action"]==12){
 		//echo $_POST["carpeta"];
-		$con=Conexion();
+		$con=Conexion();														
+		$sql_empleado="select * from empleado where idempleado='".$_SESSION["empleado"]."'";
+		$result_empleado=pg_exec($con,$sql_empleado);
+		$empleado=pg_fetch_array($result_empleado,0);		
 		
 		?>
 		
 				<div class="col-md-10" style="border-bottom: 1px solid #E9E9E9; height: 60px; line-height: 60px;font-family: 'PT Sans Narrow', sans-serif; font-size: 22px;">
-					Directorio de Archivos
+					Directorio de Archivos 										
 				</div>
 				<input type="hidden" id="mostrandoC" name="mostrandoC" value="<?php echo $_POST["carpeta"]; ?>">
 				<div id="createfolder" name="createfolder" ></div>
@@ -613,9 +616,14 @@
 							if($_POST["carpeta"]==0){
 								echo "<li onclick=directorio(0) style=\"cursor:pointer\">Root</li>";
 							}else{
-							
+								$resta=0;
+								if($empleado[6]==2){
+									$resta=1;
+								}else{
+									$resta=2;
+								}
 								//echo "<li onclick=directorio(0) style=\"cursor:pointer\">Root</li>";							
-								for($i=($contaodrUrls-2);$i>=0;$i--){
+								for($i=($contaodrUrls-$resta);$i>=0;$i--){
 									$sql_carpeta="select * from carpeta where idcarpeta='".$listUrls[$i]."'";								
 									$result_carpeta=pg_exec($con,$sql_carpeta);
 									$carpeta=pg_fetch_array($result_carpeta,0);	
